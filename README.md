@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ccce5a9b-c9d6-4bbb-9b23-80c6594d5b3d" alt="HashProof Logo" width="250" height="250">
+  <img src="https://github.com/user-attachments/assets/247ab4ce-f422-4a32-9235-96f73551beed" alt="HashProof Logo" width="250" height="250">
 </p>
 
 <p align="center">
@@ -136,12 +136,12 @@ Contibutions are welcome! Follow these steps:
 4. Open a Pull Request!
 
 
-
 ##  🌎 LIVE DEMO at https://hashproof.vercel.app
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4db0f33a-10ad-4fa9-8cf8-1ed7707fe503" width="367">
-  <img src="https://github.com/user-attachments/assets/eb550484-8ed8-4021-a158-f4c18661f4e6" width="360">
+
+  <img src="https://github.com/user-attachments/assets/0ec7b4c9-6581-4078-9e74-14a32864ecba" width="367">
+  <img src="https://github.com/user-attachments/assets/a18e710c-a67f-48a4-b1b2-6e51f9900781" width="360">
 </p>
 
 
