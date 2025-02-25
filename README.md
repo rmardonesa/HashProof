@@ -58,7 +58,7 @@ HashProof offers a **privacy-first** approach by generating the cryptographic fi
 
 1. **Clone the Repository**
      ```sh
-     git clone https://github.com/your-username/HashProof.git
+     git clone https://github.com/rmardonesa/HashProof.git
      cd HashProof
      ```
 
