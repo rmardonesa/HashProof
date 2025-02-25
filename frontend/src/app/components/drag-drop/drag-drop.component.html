@@ -1,0 +1,19 @@
+<div class="drag-drop-container" 
+     (dragover)="onDragOver($event)" 
+     (dragleave)="onDragLeave($event)" 
+     (drop)="onDrop($event)">
+  
+  <input type="file" #fileInput (change)="onFileSelected($event)" hidden>
+  <mat-icon class="upload-icon">file_upload</mat-icon>
+  <p><br>Arrastra y suelta un PDF aquí o 
+     <span (click)="fileInput.click()">Examina</span>
+  </p>
+</div>
+
+<div class="result-container" *ngIf="generatedHash">
+  <h3>Hash SHA-256 Generado:</h3>
+  <p class="hash-text">{{ generatedHash }}</p>
+  <button class="copy-button" (click)="copyHash()">Copiar Hash</button>
+</div>
+
+

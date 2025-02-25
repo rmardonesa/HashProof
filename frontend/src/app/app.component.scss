@@ -1,0 +1,95 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f4f6f8;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .drag-drop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 500px;
+    height: 200px;
+    border: 2px dashed #3f51b5;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #ffffff;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 20px;
+  }
+  
+  .drag-drop-container:hover {
+    background-color: #e3e3e3;
+    border-color: #303f9f;
+  }
+  
+  .drag-drop-container.dragging {
+    background-color: #c5cae9;
+    border-color: #303f9f;
+  }
+  
+  .upload-icon {
+    font-size: 50px;
+    color: #3f51b5;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  span {
+    color: #3f51b5;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .result-container {
+    margin-top: 30px;
+    padding: 15px;
+    width: 90%;
+    max-width: 500px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    word-wrap: break-word;
+  }
+  
+  .hash-text {
+    font-size: 14px;
+    word-wrap: break-word;
+    color: #333;
+  }
+  
+  .copy-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .copy-button:hover {
+    background-color: #303f9f;
+  }
+  
+  .mat-progress-bar {
+    width: 100%;
+    margin-top: 15px;
+  }

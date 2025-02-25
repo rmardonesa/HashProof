@@ -1,0 +1,20 @@
+<header class="logo-container">
+    <img src="assets/HashProof.png" alt="HashProof Logo">
+  </header>
+  
+  <app-drag-drop></app-drag-drop>
+  
+  <div class="result-container" *ngIf="generatedHash">
+      <h3>🔑 Hash SHA-256 Generado:</h3>
+      <p class="hash-text">{{ generatedHash }}</p>
+      <button class="copy-button" (click)="copyHashToClipboard()">📋 Copiar Hash</button>
+  </div>
+  
+  <footer class="footer-container">
+    <img src="assets/math_minimalism.gif" alt="Hash Animation">
+  </footer>
+
+  <div>
+    <p class="footer-text">Desarrollado por <a href="https://github.com/rmardonesa">Rodrigo Mardones</a></p>
+  </div>
+  
