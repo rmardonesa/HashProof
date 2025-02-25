@@ -15,9 +15,7 @@
   <img src="https://img.shields.io/badge/Postgres-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white">
 </p>
-<p align="center">
-  <i> https://hashproof.vercel.app </i>
-</p>
+
 
 ## 🚀 Overview
 
